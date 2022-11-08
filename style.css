@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800;900&display=swap");
+
+body {
+  font-family: Montserrat, sans-serif;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(224, 238, 255);
+  margin: 0%;
+  padding: 0%;
+  min-height: 100vh;
+}
+
+.login-card {
+  background-color: rgba(250, 235, 215, 0);
+  padding: 4rem;
+  border-radius: 10px;
+  position: relative;
+}
+.login-card-logo {
+  margin-bottom: 2rem;
+}
+
+.login-card-logo img {
+  opacity: 0.84;
+  width: 10em;
+}
+
+.login-card-logo,
+.login-card-header,
+.login-card-footer {
+  text-align: center;
+}
+
+.login-card a {
+  text-decoration: none;
+  color: blueviolet;
+}
+.login-card a:hover {
+  transition: 100ms;
+  color: brown;
+  text-decoration: underline;
+}
+
+.login-card-header {
+  color: #000000cf;
+  margin-bottom: 2rem;
+}
+.login-card-header h1 {
+  margin: -30px 0px 0px 7px;
+  font-size: 60px;
+}
+.login-card-header .text {
+  font-size: 20px;
+  font-weight: 400px;
+  margin-bottom: 1.4em;
+}
